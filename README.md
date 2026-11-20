@@ -44,10 +44,3 @@ report-generator/
    streamlit run app.py
    ```
 
-## Despliegue en Streamlit Community Cloud
-
-1. Sube el repositorio a GitHub (asegúrate de que `.streamlit/secrets.toml` y `venv/` permanezcan en `.gitignore`).
-2. Entra a [share.streamlit.io](https://share.streamlit.io) y selecciona **New app**.
-3. Elige tu repositorio, la rama `main` y el archivo principal `app.py`.
-4. En **Advanced settings -> Secrets**, pega tu clave (`OPENAI_API_KEY` o `DEEPSEEK_API_KEY`).
-5. Haz clic en **Deploy**.
