@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Secretos y variables de entorno
+.streamlit/secrets.toml
+.env
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
